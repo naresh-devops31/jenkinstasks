@@ -4,11 +4,12 @@ pipeline{
     {
         name1="jeff"
         name2="jail1"
+        name3="jais"
     }
     stages{
         stage("build"){
         environment{
-            name3="jais"
+            name4="jais"
         }
         steps{
             echo "name ${name1}"
@@ -19,6 +20,7 @@ pipeline{
         stage ("check variabke")
         {
             steps{
+
                echo "name ${name1}"
             echo "name ${name2}"
             echo "name ${name3}" 
