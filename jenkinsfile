@@ -24,7 +24,7 @@ pipeline{
             echo "name ${name3}" 
             }
         }
-        ]
+    
     }
     post{
         always{
